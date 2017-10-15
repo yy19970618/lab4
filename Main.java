@@ -1,4 +1,4 @@
-package hello2;
+﻿package hello2;
 import java.io.*;
 import java.util.Scanner;
 
@@ -94,7 +94,7 @@ public class Main {
 		        	 }
 	        	 }
 	         }
-	         return wordlist;
+	         return wordlist;//github
 	         
 	 }
 
