@@ -12,7 +12,12 @@ class EdgeElement {
         endvex=v2;  
         weight=wgt;  
     }     
+<<<<<<< HEAD
 }  // 222123
+=======
+  // 222qw
+}  // 222444liuyu
+>>>>>>> B1
 class Graph{
 	int G[][];
 	String unitword[];
