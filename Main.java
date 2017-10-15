@@ -12,7 +12,8 @@ class EdgeElement {
         endvex=v2;  
         weight=wgt;  
     }     
-}  // 222qw
+  // 222qw
+}  // 222444liuyu
 class Graph{
 	int G[][];
 	String unitword[];
