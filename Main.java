@@ -12,7 +12,7 @@ class EdgeElement {
         endvex=v2;  
         weight=wgt;  
     }     
-} //zxcv
+} //zxcv333
 class Graph{
 	int G[][];
 	String unitword[];
