@@ -13,11 +13,15 @@ class EdgeElement {
         weight=wgt;  
     }     
 <<<<<<< HEAD
+<<<<<<< HEAD
 }  // 222123
 =======
   // 222qw
 }  // 222444liuyu
 >>>>>>> B1
+=======
+} //zxcv333
+>>>>>>> blue
 class Graph{
 	int G[][];
 	String unitword[];
@@ -99,7 +103,11 @@ public class Main {
 		        	 }
 	        	 }
 	         }
+<<<<<<< HEAD
 	         return wordlist;
+=======
+	         return wordlist;//github
+>>>>>>> blue
 	         
 	 }
 

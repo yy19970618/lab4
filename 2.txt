@@ -1,7 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 githubasdf
 =======
 github456
 github2222111
 
 >>>>>>> B1
+=======
+git
+asdf
+222
+>>>>>>> blue
