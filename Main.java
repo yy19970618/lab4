@@ -12,7 +12,7 @@ class EdgeElement {
         endvex=v2;  
         weight=wgt;  
     }     
-}  // 222
+}
 class Graph{
 	int G[][];
 	String unitword[];
@@ -40,9 +40,7 @@ public class Main {
 		     word1 = sc.nextLine();
 		     String word2;
 		     word2 = sc.nextLine();
-		     //String result = 
 		     calcShortestPath(word1,word2);
-		     //System.out.println(result);
 		     sc.close();
 	  }
 	  
@@ -74,7 +72,6 @@ public class Main {
 	         char[] word = new char[20];
              String[] wordlist  = new String[100];
 	         for(int j=0;j<count;j++) {
-	    	     //System.out.print(inputCharArray[j]);
 	        	 if(inputCharArray[j] != ' ') {
 	        		word[wordflag] = inputCharArray[j];
 	        		wordflag++;
@@ -88,7 +85,6 @@ public class Main {
 		        		 for(int k=0;k<20;k++) {
 		        			 word[k]=' ';
 		        		 }
-		        		 //System.out.println(wordlist[wordcount-1]);
 		        	 }else {
 		        		    continue;
 		        	 }
@@ -110,10 +106,6 @@ public class Main {
 	        	 }
 	         }
 	         Ed = D;
-	         //for(int i=0;i<wordcount-1;i++) {
-                 //System.out.println(D[i].fromvex+"-->"+D[i].endvex +D[i].weight);
-	         //}
-	         
 	         for(int i=1;i<wordcount;i++) {
 	        	 for(int j=0;j<i;j++) {
 	        		 if(wordlist[i].equals(wordlist[j])) {
@@ -131,11 +123,6 @@ public class Main {
                 	unitwordcount++;
                 }
 	         }
-	         
-	         /*for(int i=0;i<unitwordcount;i++) {
-                 System.out.println(unitword[i]);
-	         }*/
-	         
 	         int G[][] = new int[unitwordcount][unitwordcount];
 	         for(int i=0;i<wordcount-1;i++) {
 	        	 String V1,V2;
@@ -161,19 +148,18 @@ public class Main {
 	         graph = new Graph(G,unitword,wordcount-1);
 	  }
 
-	public static void showDirectedGraph(int G[][]) {
-        	 for(int i =0;i<graph.G.length;i++) {
-        		 for(int j=0;j<graph.G.length;j++) {
-		        	 if(G[i][j]>0) {
-		        		 System.out.println(graph.unitword[i]+"-->"+graph.unitword[j]+G[i][j]);
-        		 }
-        	  }
-          }
-	            
-	  }
+  public static void showDirectedGraph(int G[][]) {
+    	 for(int i =0;i<graph.G.length;i++) {
+    		 for(int j=0;j<graph.G.length;j++) {
+	        	 if(G[i][j]>0) {
+	        		 System.out.println(graph.unitword[i]+"-->"+graph.unitword[j]+G[i][j]);
+    		 }
+    	  }
+      }
+            
+  }
 	  
 	  public static void calcShortestPath(String word1,String word2){
-	     	 //String reslut;
         	 int m=0;
         	 int n=0;
         	 for(int w=0;w<graph.G.length;w++) {
